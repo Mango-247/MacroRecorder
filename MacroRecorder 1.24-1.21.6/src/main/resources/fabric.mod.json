@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "macro-recorder",
+	"version": "${version}",
+	"name": "MacroRecorder",
+	"description": "A client side mod that allows you to easily record, save, and playback actions.",
+	"authors": [
+		"Mango247"
+	],
+	"contact": {
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/macro-recorder/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.example.MacroRecorderClient"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.4 <=1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
