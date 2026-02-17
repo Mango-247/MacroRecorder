@@ -1,16 +1,35 @@
-# Compiled class file
-*.class
+# Gradle
+.gradle/
+build/
+out/
 
-# Log file
+# Run directory (Forge/Fabric runtime)
+run/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Logs
+logs/
 *.log
 
-# BlueJ files
-*.ctxt
+# OS files
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Compiled Java
+*.class
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,6 +38,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Crash logs
 hs_err_pid*
 replay_pid*
